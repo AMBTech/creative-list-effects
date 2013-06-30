@@ -81,7 +81,8 @@ h1 {
 
 header {
   padding-top: 30px;
-  margin-bottom: 30px
+  margin-bottom: 30px;
+  text-align:center;
 }
 header p{
   color:rgba(255,255,255,.6);
@@ -183,8 +184,8 @@ button,
 
 button.disabled,
 .clear-all.disabled {
-  background-color: #eee;
-  color: grey
+  background-color: rgba(255,255,255,.2);
+  color: grey;
 }
 
 button.disabled .icon-trash,
