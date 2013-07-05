@@ -139,7 +139,10 @@
                                       $(this).hide();
                               } 
                  }));
-     
+        createdItem.on('keydown', function(ev){
+            if(ev.keyCode === 13) return false;
+        });
+        
         saveReminder(id, content);
         count++;
         updateCounter();
