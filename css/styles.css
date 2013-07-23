@@ -103,6 +103,7 @@ input[type='text'] {
   border: none;
   background-color: transparent;
   font-size: 20px;
+  font-weight:300;
   color: white;
   float:left;
   padding:5px 10px;
@@ -139,13 +140,12 @@ input[type='text']:focus {
 .icon-save {
   position: absolute;
   top: 3px;
-  color: #84c196;
+  color: #aaa;
   cursor: pointer;
   right: 40px
 }
 
 .icon-trash {
-  color: orange;
   right: 10px
 }
 
@@ -154,7 +154,6 @@ input[type='text']:focus {
   top: 0;
   left: 50%;
   z-index: 3;
-  
   padding: 5px 10px;
   color: white;
   display: none;
@@ -187,7 +186,7 @@ button,
 
 button.disabled,
 .clear-all.disabled {
-  background-color: rgba(255,255,255,.2);
+  background-color: rgba(0,0,0,.25);
   color: grey;
 }
 
@@ -218,15 +217,15 @@ button .icon-trash {
 
 .reminders li {
   z-index:1;
-  font-weight: 300;
-  box-shadow: 0 7px 0 -4px rgba(0, 0, 0, 0.2);
+  font-weight: 400;
+  /*box-shadow: 0 7px 0 -4px rgba(0, 0, 0, 0.2);*/
   color: #444;
   text-align: left;
   min-height: 50px;
   line-height: 30px;
-  font-size: 24px;
+  font-size: 20px;
   background-color: white;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
   padding: 10px;
   padding-right: 60px;
   position: relative;
